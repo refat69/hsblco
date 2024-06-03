@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Bebas Neue", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+p {
+  color: rgb(122, 122, 122);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1100px;
+}
+#header {
+  background-color: #fff6f6ab;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+#header p {
+  color: #24479a;
+  font-family: "Bebas Neue", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+#header a {
+  color: #6ec1e4;
+}
+#header i {
+  width: 30px;
+  height: 30px;
+  background: #24479a;
+  color: #fff;
+  border-radius: 50%;
+  padding-left: 7px;
+  padding-top: 7px;
+  margin-left: 7px;
+}
+.navbar {
+  /* position: fixed;
+  width: 100%;
+  top: 70px;
+  left: 0; */
+  background-color: #d6d6d685;
+  opacity: 0.8;
+  z-index: 10;
+}
+.navbar-brand img {
+  width: 100%;
+  height: 78px;
+}
+.nav-menu ul li a {
+  font-family: "Bebas Neue", Sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #24479a;
+}
+.nav-menu ul li a:hover {
+  color: #6ec1e4;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: var(--bs-navbar-nav-link-padding-x);
+  padding-left: 8px;
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+  color: #000;
+  z-index: 1;
+}
+/* start banner */
+#banner {
+  background: url(../images/banner-bg.jpg) no-repeat center/cover;
+  padding-top: 130px;
+  padding-bottom: 320px;
+  color: #fff;
+}
+.banner-text h1 {
+  font-family: "Bebas Neue", Sans-serif;
+  font-weight: 500;
+  font-size: 43px;
+  line-height: 1.2;
+  padding-top: 30px;
+}
+.btn-primary {
+  font-family: "Bebas Neue", Sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #24479a;
+  padding: 15px 15px 15px 15px;
+  display: inline-block;
+  line-height: 1;
+  font-size: 15px;
+  padding: 12px 24px;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  transition: all 0.3s;
+}
+/* end banner */
+/* start about */
+#about h2 {
+  color: #9fa3ac;
+  font-family: "Bebas Neue", Sans-serif;
+  font-size: 52px;
+  font-weight: 500;
+}
+.middle-world {
+  color: #24479a !important;
+}
+#about p,
+li {
+  margin-block-start: 0px;
+  margin-block-end: 14.4px;
+}
+.middle {
+  background: url(../images/Untitled-1.png);
+  color: #ffffff;
+}
+.middle h3 {
+  color: #fff;
+  font-family: "Bebas Neue", Sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.middle p {
+  border-bottom: 1px solid #fff;
+  color: #fff !important;
+}
+.middle i {
+  font-size: 45px;
+}
+.text {
+  width: 285px;
+}
+/* end about */
+/* start service */
+#services {
+  background-color: #6a80b852;
+}
+#services h2 {
+  color: #9fa3ac;
+  font-size: 52px;
+  font-weight: 500;
+}
+.middle-world {
+  color: #24479a !important;
+}
+.service card {
+  max-width: 14rem;
+}
+.service i {
+  font-size: 50px;
+}
+.service h3 {
+  color: #fff;
+  font-family: "Bebas Neue", Sans-serif;
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 1.2;
+  padding-top: 30px;
+}
+.service p {
+  color: rgb(122, 122, 122);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  padding-top: 15px;
+}
+/* end service */
+/* start clients */
+
+#clients h2 {
+  color: #9fa3ac;
+  font-size: 52px;
+  font-weight: 500;
+}
+.middle-world {
+  color: #24479a !important;
+}
+#clients img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+/* end clients */
+/* start blog */
+#blogs {
+  background-color: #6a80b852;
+}
+#blogs h2 {
+  color: #9fa3ac;
+  font-size: 52px;
+  font-weight: 500;
+}
+.middle-world {
+  color: #24479a !important;
+}
+#blogs h4 {
+  color: #544c4c;
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+#blogs p {
+  margin-bottom: 20px;
+}
+.digital-marketing-blog {
+  background: url(../images/WhatsApp-Image-2023-07-16-at-19.19.27.jpeg)
+    no-repeat center/cover;
+  padding: 5px;
+}
+/* end blog */
+#brand-logo img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: cover;
+  max-width: 100%;
+}
+#team-members {
+  background-color: #6a80b852;
+}
+@media (max-width: 991px) {
+  #team-members .col-md-6 {
+    margin-top: 50px;
+  }
+}
+#team-members h2 {
+  color: #9fa3ac;
+  font-size: 52px;
+  font-weight: 500;
+}
+.middle-world {
+  color: #24479a !important;
+}
+#team-members .card-title {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+#team-members .card-text {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.members {
+  margin-top: 100px;
+}
+/* #team-members .card{
+ width:11rem;
+} */
+.img-border {
+  width: 110px;
+  height: 110px;
+  border-radius: 22%;
+  border: 4px solid #f4f0f0c2;
+}
+.img-border img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border-radius: 22%;
+}
+.image-center {
+  border-top: 5px solid #000;
+  position: relative;
+}
+.img-border {
+  position: absolute;
+  top: -57px;
+  left: 17%;
+}
+.member-icon i {
+  font-size: 25px;
+  padding-left: 10px;
+}
+#business-packages h2 {
+  color: #9fa3ac;
+  font-size: 52px;
+  font-weight: 500;
+}
+.middle-world {
+  color: #24479a !important;
+}
+#footer {
+  background-color: #6a80b852;
+}
+#footer a{
+  color: #000;
+}
+#footer a:hover{
+  cursor: pointer;
+  color: #24479a !important;
+}
+#footer h5 {
+  color: #24479a;
+  font-size: 22px;
+}
+#footer p, li{
+  color: #000000;
+  font-family: Sans-serif;
+  font-weight: 300;
+  font-size: 18px; 
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+.for-hover p {
+  color: #000 !important;
+}
+.for-hover p:hover {
+  cursor: pointer;
+  color: #24479a !important;
+}
+#footer i {
+  margin-top: 22px;
+  padding-right: 10px;
+  color: #544c4c;
+}
+.copyright {
+  background: rgba(157, 184, 254, 0.32);
+}
+.copyright h5 {
+  padding: 30px 0;
+  text-align: center;
+}
